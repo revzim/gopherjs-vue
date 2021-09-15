@@ -10,9 +10,24 @@ VueJS bindings for gopherjs
 # Usage
 
 ```
+func initVuetify() *js.Object {
+	Vuetify := js.Global.Get("Vuetify")
+
+	vue.Use(Vuetify)
+
+	vuetifyCFG := js.Global.Get("Object").New()
+	vuetifyCFG.Set("theme", map[string]interface{}{
+		"dark": true,
+	})
+
+	vtfy := Vuetify.New(vuetifyCFG)
+
+	return vtfy
+}
+
 o := vue.NewOption()
 o = o.Mixin(js.M{
-    "vuetify": InitVuetify(),
+    "vuetify": initVuetify(),
 })
 
 ```
