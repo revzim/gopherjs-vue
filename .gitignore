@@ -30,3 +30,5 @@ examples/component/component.js
 examples/component/component.js.map
 
 node_modules/
+
+go.sum
