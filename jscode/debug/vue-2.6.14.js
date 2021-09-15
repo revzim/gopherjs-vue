@@ -12022,6 +12022,11 @@
 
 }));
 
+/*!
+* Vuetify v2.5.4
+* Forged by John Leider
+* Released under the MIT License.
+*/
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory(require("vue"));
