@@ -9,6 +9,14 @@ VueJS bindings for gopherjs
 
 # Usage
 
+```
+o := vue.NewOption()
+o = o.Mixin(js.M{
+    "vuetify": InitVuetify(),
+})
+
+```
+
 Combined the power of [Gopherjs][gopherjs] and [VueJS][vuejs], you can use
 `golang struct` to provide the two-way data-binding context for [VueJS][vuejs],
 and easily implements the popular browser `MVVM` models in Go.
