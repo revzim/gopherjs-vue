@@ -2,4 +2,4 @@
 
 package vue
 
-import _ "github.com/oskca/gopherjs-vue/jscode/debug"
+import _ "github.com/revzim/gopherjs-vue/jscode/debug"

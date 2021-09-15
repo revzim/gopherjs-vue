@@ -2,4 +2,4 @@
 
 package vue
 
-import _ "github.com/oskca/gopherjs-vue/jscode/minified"
+import _ "github.com/revzim/gopherjs-vue/jscode/minified"

@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/gopherjs/gopherjs/js"
-	"github.com/oskca/gopherjs-vue"
+	vue "github.com/revzim/gopherjs-vue"
 )
 
 type Model struct {

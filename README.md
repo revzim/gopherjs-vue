@@ -1,6 +1,12 @@
 # gopherjs-vue
 VueJS bindings for gopherjs
 
+* THIS IS A FORKED & MODIFIED VERSION OF `gopherjs-vue` TO INCLUDE UPDATED VUE & VUETIFY FUNCTIONALITY.
+* [DEMO](https://revzim.github.io/aztd-demo)
+* [DEMO REPO](https://github.com/revzim/aztd-demo)
+* [VUE v2.6.14](https://github.com/vuejs/vue)
+* [VUETIFY v2.5.4](https://github.com/vuetifyjs/vuetify)
+
 # Usage
 
 Combined the power of [Gopherjs][gopherjs] and [VueJS][vuejs], you can use
@@ -41,7 +47,7 @@ package main
 
 import (
     "github.com/gopherjs/gopherjs/js"
-    "github.com/oskca/gopherjs-vue"
+    "github.com/revzim/gopherjs-vue"
 )
 
 type Model struct {

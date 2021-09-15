@@ -4,7 +4,6 @@ import (
 	"strings"
 
 	"github.com/gopherjs/gopherjs/js"
-	"github.com/oskca/gopherjs-json"
 )
 
 // FromJS set the corresponding VueJS data model field from obj
@@ -21,7 +20,7 @@ func (v *ViewModel) FromJS(obj *js.Object) *ViewModel {
 }
 
 func (v *ViewModel) FromJSON(jsonStr string) *ViewModel {
-	return v.FromJS(json.Parse(jsonStr))
+	return v.FromJS(Parse(jsonStr))
 }
 
 func (v *ViewModel) ToJS() *js.Object {
@@ -37,5 +36,5 @@ func (v *ViewModel) ToJS() *js.Object {
 }
 
 func (v *ViewModel) ToJSON() string {
-	return json.Stringify(v.ToJSON())
+	return Stringify(v.ToJSON())
 }

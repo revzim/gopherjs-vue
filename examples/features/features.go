@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/gopherjs/gopherjs/js"
-	"github.com/oskca/gopherjs-vue"
+	"github.com/revzim/gopherjs-vue"
 )
 
 // no *js.Object struct can only be manipulated by ViewModel.methods
